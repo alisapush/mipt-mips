@@ -4,6 +4,8 @@
  * Copyright 2017-2018 MIPT-MIPS
  */
 
+#include <iostream>
+
 #include "bpentry.h"
 #include "bpu.h"
 
@@ -70,6 +72,15 @@ public:
         // do not update LRU information on prediction,
         // so "no_touch" version of "tags->read" is used:
         const auto[ is_hit, way] = tags->read_no_touch( PC);
+
+
+
+	    sout << "Sout ________________ Addr get_target( Addr PC) const final\n";
+	    std::cout << std::endl << "std::cout ________________ Addr get_target( Addr PC) const final\n"
+	              << std::endl;
+
+	    using namespace std;
+	    freopen( "output.txt", "w", stdout );
 
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
