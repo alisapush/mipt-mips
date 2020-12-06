@@ -83,6 +83,7 @@ void PerfSim<ISA>::clock()
 template<typename ISA>
 void PerfSim<ISA>::clock_tree( Cycle cycle)
 {
+	// search MAIN LOOP TICK FUNCTION
     fetch.clock( cycle);
     decode.clock( cycle);
     execute.clock( cycle);

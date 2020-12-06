@@ -42,7 +42,7 @@ class BP final: public BaseBP
 
 	static void log_msg (std::string message)
 	{
-		std::cout << std::endl << message;
+		std::cout << std::endl << message << std::endl;
 		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
 		log << message << std::endl;
 	}
@@ -84,8 +84,6 @@ public:
         // so "no_touch" version of "tags->read" is used:
         const auto[ is_hit, way] = tags->read_no_touch( PC);
 
-	    log_msg("std::cout ________________ Addr get_target( Addr PC) const final");
-
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
         {
@@ -96,6 +94,7 @@ public:
         {
 	        log_msg("get_target GL next time...");
         }
+
 
         return PC + 4;
     }

@@ -171,7 +171,10 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 
     /* push bubble */
     if ( !target.valid)
-        return;
+    {
+	    sout << "fetch " << std::dec << cycle << ": target is invalid" << std::endl;
+	    return;
+    }
 
     /* hold PC for the stall case */
     wp_hold_pc->write( target, cycle);
@@ -182,9 +185,11 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 
     /* set next target according to prediction */
     wp_target->write( instr.get_predicted_target(), cycle);
+	sout << "fetch  wp_target " << instr.get_predicted_target() << std::endl;
 
     /* log */
-    sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
+	sout << "fetch  prelog " << std::dec << cycle << ": " << target.address << " " << target << std::endl;
+	sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
 
     /* sending to decode */
     wp_datapath->write( std::move( instr), cycle);
