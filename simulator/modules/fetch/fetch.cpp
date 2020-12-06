@@ -217,12 +217,12 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
     /* set next target according to prediction */
     wp_target->write( instr.get_predicted_target(), cycle);
 
-
-	lg() << "instr.get_predicted_target(): " << instr.get_predicted_target();
-	lg() << "target.address: " << target.address;
-	lg() << "target: " << target;
-	lg() << "instr: " << instr;
-	lg() << "bp_info: " << bp_info;
+    auto log = lg("");
+//	lg() << "instr.get_predicted_target(): " << instr.get_predicted_target();
+//	lg() << "target.address: " << target.address;
+//	lg() << "target: " << target;
+//	lg() << "instr: " << instr;
+//	lg() << "bp_info: " << bp_info;
 
 	sout << "instr.get_predicted_target(): " << instr.get_predicted_target() << std::endl;
 	sout << "target.address: " << target.address << std::endl;
