@@ -85,12 +85,12 @@ public:
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
         {
-        	cout << "get_target VICTORY!"
+	        std::cout << "get_target VICTORY!"
 	        return targets[ way][ tags->set(PC)];
         }
         else
         {
-	        cout << "get_target GL next time..."
+	        std::cout << "get_target GL next time..."
         }
 
         return PC + 4;
