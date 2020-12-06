@@ -15,6 +15,13 @@ namespace config {
     static const Value<uint32> instruction_cache_line_size = { "icache-line-size", 64, "Line size of instruction level 1 cache (in bytes)"};
 } // namespace config
 
+static void log (std::string message)
+{
+	std::cout << std::endl << message;
+	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
+	log << message << std::endl;
+}
+
 template <typename FuncInstr>
 Fetch<FuncInstr>::Fetch( Module* parent) : Module( parent, "fetch")
 {
@@ -176,6 +183,10 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 	    return;
     }
 
+	sout << "----------------------------------------" << std::endl;
+	sout << "FETCH cycle: " << cycle << std::endl;
+
+
     /* hold PC for the stall case */
     wp_hold_pc->write( target, cycle);
 
@@ -185,14 +196,22 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 
     /* set next target according to prediction */
     wp_target->write( instr.get_predicted_target(), cycle);
-	sout << "fetch  wp_target " << instr.get_predicted_target() << std::endl;
+
+
+	sout << "instr.get_predicted_target(): " << instr.get_predicted_target() << std::endl;
+	sout << "target.address: " << target.address << std::endl;
+	sout << "target:         " << target << std::endl;
+	sout << "instr:          " << instr << std::endl;
+	sout << "bp_info:        " << bp_info << std::endl;
 
     /* log */
-	sout << "fetch  prelog " << std::dec << cycle << ": " << target.address << " " << target << std::endl;
-	sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
+	//sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
 
     /* sending to decode */
     wp_datapath->write( std::move( instr), cycle);
+
+
+	sout << "----------------------------------------" << std::endl;
 }
 
 #include <mips/mips.h>

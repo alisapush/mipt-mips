@@ -87,14 +87,13 @@ public:
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
         {
-        	log_msg("get_target VICTORY!");
+        	log_msg("get_target: VICTORY! " + PC);
 	        return targets[ way][ tags->set(PC)];
         }
         else
         {
-	        log_msg("get_target GL next time...");
+	        log_msg("get_target: GL next time... " + PC);
         }
-
 
         return PC + 4;
     }
