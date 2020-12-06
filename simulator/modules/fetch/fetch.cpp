@@ -235,10 +235,10 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 	sout << "bp_info.target:               " << bp_info.target << std::endl;
 	sout << "bp_info.is_hit:               " << bp_info.is_hit << std::endl;
 
-	Addr pc = NO_VAL32;
-	bool is_taken = false;
-	Addr target = NO_VAL32;
-	bool is_hit = true;
+//	Addr pc = NO_VAL32;
+//	bool is_taken = false;
+//	Addr target = NO_VAL32;
+//	bool is_hit = true;
 
 
     /* log */
