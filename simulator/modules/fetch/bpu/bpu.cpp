@@ -91,10 +91,10 @@ public:
         return PC + 4;
     }
 
-	void log_msg(string message)
+	void log_msg (std::string message)
 	{
 		std::cout << std::endl << message;
-		std::ofstream log("logsss.txt", std::ios_base::app | std::ios_base::out);
+		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
 		log << message << std::endl;
 	}
 
