@@ -39,6 +39,14 @@ class BP final: public BaseBP
     {
         return directions[ way][ tags->set(PC)].is_taken( PC, target);
     }
+
+	static void log_msg (std::string message)
+	{
+		std::cout << std::endl << message;
+		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
+		log << message << std::endl;
+	}
+
 public:
     BP( const std::string& lru, uint32 size_in_entries, uint32 ways, uint32 branch_ip_size_in_bits) try
         : directions( ways, std::vector<T>( size_in_entries / ways))
@@ -69,6 +77,7 @@ public:
         return tags->read_no_touch( PC).first;
     }
 
+
     Addr get_target( Addr PC) const final
     {
         // do not update LRU information on prediction,
@@ -90,13 +99,6 @@ public:
 
         return PC + 4;
     }
-
-	void log_msg (std::string message)
-	{
-		std::cout << std::endl << message;
-		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
-		log << message << std::endl;
-	}
 
     /* update */
     void update( const BPInterface& bp_upd) final
