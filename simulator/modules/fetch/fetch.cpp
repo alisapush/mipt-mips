@@ -15,18 +15,32 @@ namespace config {
     static const Value<uint32> instruction_cache_line_size = { "icache-line-size", 64, "Line size of instruction level 1 cache (in bytes)"};
 } // namespace config
 
-
-static void log (std::string message)
+static std::ofstream lg (string message = "")
 {
-	std::cout << std::endl << message;
 	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
-	log << message << std::endl;
+
+	log << std::endl;
+
+	if (message.length() > 0)
+	{
+		log << message;
+		std::cout << std::endl << message;
+	}
+
+	return log;
 }
 
-static void elog (std::string msg1, std::string msg2)
-{
-	log(msg1 + " " + msg2);
-}
+//static void log (std::string message)
+//{
+//	std::cout << std::endl << message;
+//	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
+//	log << message << std::endl;
+//}
+//
+//static void elog (std::string msg1, std::string msg2)
+//{
+//	log(msg1 + " " + msg2);
+//}
 
 template <typename FuncInstr>
 Fetch<FuncInstr>::Fetch( Module* parent) : Module( parent, "fetch")
@@ -204,12 +218,11 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
     wp_target->write( instr.get_predicted_target(), cycle);
 
 
-	elog("instr.get_predicted_target(): ", instr.get_predicted_target());
-	elog("target.address: ", target.address);
-	elog("target:         ", target);
-	elog("instr:          ", instr);
-	elog("bp_info:        ", bp_info);
-
+	lg() << "instr.get_predicted_target(): " << instr.get_predicted_target();
+	lg() << "target.address: " << target.address;
+	lg() << "target: " << target;
+	lg() << "instr: " << instr;
+	lg() << "bp_info: " << bp_info;
 
 	sout << "instr.get_predicted_target(): " << instr.get_predicted_target() << std::endl;
 	sout << "target.address: " << target.address << std::endl;
