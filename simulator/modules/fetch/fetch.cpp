@@ -15,20 +15,20 @@ namespace config {
     static const Value<uint32> instruction_cache_line_size = { "icache-line-size", 64, "Line size of instruction level 1 cache (in bytes)"};
 } // namespace config
 
-static std::ofstream lg (std::string message = "")
-{
-	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
-
-	log << std::endl;
-
-	if (message.length() > 0)
-	{
-		log << message;
-		std::cout << std::endl << message;
-	}
-
-	return log;
-}
+//static std::ofstream lg (std::string message = "")
+//{
+//	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
+//
+//	log << std::endl;
+//
+//	if (message.length() > 0)
+//	{
+//		log << message;
+//		std::cout << std::endl << message;
+//	}
+//
+//	return log;
+//}
 
 //static void log (std::string message)
 //{
@@ -217,7 +217,7 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
     /* set next target according to prediction */
     wp_target->write( instr.get_predicted_target(), cycle);
 
-    auto log = lg("");
+  //  auto log = lg("");
 //	lg() << "instr.get_predicted_target(): " << instr.get_predicted_target();
 //	lg() << "target.address: " << target.address;
 //	lg() << "target: " << target;
