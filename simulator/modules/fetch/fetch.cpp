@@ -217,7 +217,7 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
     /* set next target according to prediction */
     wp_target->write( instr.get_predicted_target(), cycle);
 
-  //  auto log = lg("");
+//  auto log = lg("");
 //	lg() << "instr.get_predicted_target(): " << instr.get_predicted_target();
 //	lg() << "target.address: " << target.address;
 //	lg() << "target: " << target;
@@ -229,7 +229,16 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 	sout << "target:                       " << target << std::endl;
 	sout << "instr:                        " << instr << std::endl;
 	sout << "bp_info:                      " << bp_info << std::endl;
-	sout << "predict_is_taken:             " << bp_info.is_taken << std::endl;
+
+	sout << "bp_info.pc:                   " << bp_info.pc << std::endl;
+	sout << "bp_info.is_taken:             " << bp_info.is_taken << std::endl;
+	sout << "bp_info.target:               " << bp_info.target << std::endl;
+	sout << "bp_info.is_hit:               " << bp_info.is_hit << std::endl;
+
+	Addr pc = NO_VAL32;
+	bool is_taken = false;
+	Addr target = NO_VAL32;
+	bool is_hit = true;
 
 
     /* log */
