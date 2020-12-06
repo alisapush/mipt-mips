@@ -15,7 +15,7 @@ namespace config {
     static const Value<uint32> instruction_cache_line_size = { "icache-line-size", 64, "Line size of instruction level 1 cache (in bytes)"};
 } // namespace config
 
-static std::ofstream lg (string message = "")
+static std::ofstream lg (std::string message = "")
 {
 	std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
 
