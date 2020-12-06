@@ -5,6 +5,8 @@
  */
 
 #include <iostream>
+#include <string>
+#include <fstream>
 
 #include "bpentry.h"
 #include "bpu.h"
@@ -73,28 +75,28 @@ public:
         // so "no_touch" version of "tags->read" is used:
         const auto[ is_hit, way] = tags->read_no_touch( PC);
 
-
-
-	    sout << "Sout ________________ Addr get_target( Addr PC) const final\n";
-	    std::cout << std::endl << "std::cout ________________ Addr get_target( Addr PC) const final\n"
-	              << std::endl;
-
-	    using namespace std;
-	    freopen( "output.txt", "w", stdout );
+	    log_msg("std::cout ________________ Addr get_target( Addr PC) const final");
 
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
         {
-	        std::cout << "get_target VICTORY!"
+        	log_msg("get_target VICTORY!");
 	        return targets[ way][ tags->set(PC)];
         }
         else
         {
-	        std::cout << "get_target GL next time..."
+	        log_msg("get_target GL next time...");
         }
 
         return PC + 4;
     }
+
+	void log_msg(string message)
+	{
+		std::cout << std::endl << message;
+		std::ofstream log("logsss.txt", std::ios_base::app | std::ios_base::out);
+		log << message << std::endl;
+	}
 
     /* update */
     void update( const BPInterface& bp_upd) final

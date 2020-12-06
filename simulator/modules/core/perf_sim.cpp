@@ -112,6 +112,7 @@ void PerfSim<ISA>::dump_statistics() const
     auto branch_mispredict_rate = 1.0 * get_rate( branch.get_jumps_num(), branch.get_mispredictions_num());
     
     std::cout << std::endl << "****************************"
+		      << std::endl << "uuuuuuu it's hacking time!"
               << std::endl << "instrs:     " << executed_instrs
               << std::endl << "cycles:     " << curr_cycle
               << std::endl << "IPC:        " << ipc
