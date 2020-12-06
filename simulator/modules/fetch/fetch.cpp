@@ -126,7 +126,7 @@ void Fetch<FuncInstr>::clock_bp( Cycle cycle)
 template <typename FuncInstr>
 void Fetch<FuncInstr>::clock_instr_cache( Cycle cycle)
 {
-    if( rp_long_latency_pc_holder->is_ready( cycle))
+    if (rp_long_latency_pc_holder->is_ready( cycle))
     {
         /* get PC from long-latency port if it's possible */
         auto target = rp_long_latency_pc_holder->read( cycle);
@@ -225,10 +225,12 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 //	lg() << "bp_info: " << bp_info;
 
 	sout << "instr.get_predicted_target(): " << instr.get_predicted_target() << std::endl;
-	sout << "target.address: " << target.address << std::endl;
-	sout << "target:         " << target << std::endl;
-	sout << "instr:          " << instr << std::endl;
-	sout << "bp_info:        " << bp_info << std::endl;
+	sout << "target.address:               " << target.address << std::endl;
+	sout << "target:                       " << target << std::endl;
+	sout << "instr:                        " << instr << std::endl;
+	sout << "bp_info:                      " << bp_info << std::endl;
+	sout << "predict_is_taken:             " << bp_info.is_taken << std::endl;
+
 
     /* log */
 	//sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
