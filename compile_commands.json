@@ -1,0 +1,499 @@
+[
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/cachesim.dir/export/cache/main.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/main.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/main.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/export/catch/catch.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/catch/catch.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/catch/catch.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/cache/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/cache/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/cache/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/config/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/instrcache/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/instrcache/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/instrcache/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/replacement/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/replacement/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/replacement/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/ports/port_queue/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/port_queue/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/port_queue/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/ports/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/ports/t/example_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/example_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/example_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/infra/ports/t/topology_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/topology_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/t/topology_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/memory/argv_loader/t/unit_tests.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/argv_loader/t/unit_tests.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/argv_loader/t/unit_tests.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/memory/cen64/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/cen64/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/cen64/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/memory/t/check_coherency.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/t/check_coherency.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/t/check_coherency.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/memory/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/kernel/t/replicant_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/t/replicant_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/t/replicant_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/kernel/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/kernel/mars/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/mars/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/mars/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/mips_register/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_register/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_register/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_cp1_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_cp1_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_cp1_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_divmult_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_divmult_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_divmult_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_branch_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_branch_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_branch_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_memory_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_memory_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_memory_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips32_traps_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_traps_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips32_traps_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips64_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips64_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips64_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/mips/t/mips_version_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips_version_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/t/mips_version_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/risc_v/riscv_register/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_register/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_register/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/risc_v/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/risc_v/t/riscv64_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/riscv64_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/riscv64_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/risc_v/t/riscv32_driver_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/riscv32_driver_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/t/riscv32_driver_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/func_sim/rf/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/rf/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/rf/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/func_sim/traps/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/traps/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/traps/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/func_sim/driver/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/driver/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/driver/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/func_sim/t/alu_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/t/alu_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/t/alu_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/func_sim/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/modules/fetch/bpu/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/modules/core/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/core/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/core/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/export/gdb/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/gdb/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/gdb/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/unit-tests.dir/export/cache/t/unit_test.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/t/unit_test.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/t/unit_test.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips.dir/export/standalone/main.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/standalone/main.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/standalone/main.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-cen64-intf.dir/export/cen64/cen64_intf.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cen64/cen64_intf.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cen64/cen64_intf.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-cen64-intf.dir/memory/cen64/cen64_memory.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/cen64/cen64_memory.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/cen64/cen64_memory.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/log.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/log.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/log.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/target.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/target.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/target.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/config/main_wrapper.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/main_wrapper.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/main_wrapper.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/config/config.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/config.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/config/config.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/ports/module.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/module.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/module.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/ports/ports.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/ports.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/ports.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/ports/timing.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/timing.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/ports/timing.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/cache/cache_tag_array.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/cache/cache_tag_array.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/cache/cache_tag_array.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/infra/replacement/cache_replacement.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/replacement/cache_replacement.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/infra/replacement/cache_replacement.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/memory/memory.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/memory.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/memory.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/memory/hierarchied_memory.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/hierarchied_memory.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/hierarchied_memory.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/memory/plain_memory.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/plain_memory.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/plain_memory.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/memory/elf/elf_loader.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/elf/elf_loader.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/elf/elf_loader.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/memory/argv_loader/argv_loader.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/argv_loader/argv_loader.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/memory/argv_loader/argv_loader.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/func_sim/func_sim.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/func_sim.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/func_sim.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/func_sim/driver/driver.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/driver/driver.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/driver/driver.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/func_sim/traps/trap.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/traps/trap.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/func_sim/traps/trap.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/mips/mips_instr.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_instr.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_instr.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/mips/mips_register/mips_register.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_register/mips_register.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_register/mips_register.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/mips/mips_driver.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_driver.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/mips/mips_driver.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/risc_v/riscv_register/riscv_register.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_register/riscv_register.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_register/riscv_register.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/risc_v/riscv_instr.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_instr.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_instr.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/risc_v/riscv_driver.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_driver.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/risc_v/riscv_driver.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/export/gdb/gdb_wrapper.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/gdb/gdb_wrapper.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/gdb/gdb_wrapper.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/export/cen64/cen64_wrapper.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cen64/cen64_wrapper.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cen64/cen64_wrapper.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/export/cache/runner.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/runner.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/export/cache/runner.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/kernel/kernel.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/kernel.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/kernel.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/kernel/mars/mars_kernel.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/mars/mars_kernel.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/kernel/mars/mars_kernel.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/ports_instance.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/ports_instance.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/ports_instance.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/fetch/fetch.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/fetch.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/fetch.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/fetch/bpu/bpu.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/bpu.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/bpu.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/fetch/bpu/bp_interface.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/bp_interface.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/fetch/bpu/bp_interface.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/decode/decode.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/decode/decode.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/decode/decode.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/execute/execute.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/execute/execute.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/execute/execute.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/mem/mem.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/mem/mem.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/mem/mem.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/branch/branch.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/branch/branch.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/branch/branch.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/core/perf_sim.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/core/perf_sim.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/core/perf_sim.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/writeback/writeback.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/writeback/writeback.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/writeback/writeback.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/modules/writeback/checker/checker.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/writeback/checker/checker.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/modules/writeback/checker/checker.cpp"
+},
+
+{
+  "directory": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DKERNEL_IMAGES=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../kernels/\\\" -DTEST_PATH=\\\"/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/../tests\\\" -Isimulator -isystem simulator/elfio/src/elfio -isystem simulator/../external -isystem simulator/../riscv-opcodes -isystem /usr/local/include   -Wall -Wextra -Wpedantic -Wold-style-cast -Wvla -Werror -O3 -DNDEBUG -O3 -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15   -std=c++2a -o CMakeFiles/mipt-mips-src.dir/simulator.cpp.o -c /Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/simulator.cpp",
+  "file": "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/simulator.cpp"
+}
+]

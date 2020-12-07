@@ -307,6 +307,7 @@ struct ALU
     template<Execute j> static
     void jump_and_link( Instr* instr)
     {
+    	// search Aaaaaaaaaaaaaaaaaa
         instr->v_dst[0] = narrow_cast<RegisterUInt>( instr->new_PC); // link
         j( instr);   // jump
     }

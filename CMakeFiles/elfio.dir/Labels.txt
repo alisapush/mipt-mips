@@ -1,0 +1,13 @@
+# Target labels
+ elfio
+# Source files and their labels
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio-complete.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-install.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-mkdir.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-download.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-update.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-patch.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-configure.rule
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-build.rule

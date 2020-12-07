@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio-complete.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-install.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-mkdir.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-download.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-update.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-patch.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-configure.rule"
+		},
+		{
+			"file" : "/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/simulator/elfio/src/elfio-stamp/elfio-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"elfio"
+		],
+		"name" : "elfio"
+	}
+}

@@ -61,6 +61,13 @@ class Execute : public Module
     public:
         explicit Execute( Module* parent);
         void clock( Cycle cycle);
+
+		uint64 num_jumps          = 0;
+		uint64 num_mispredictions = 0;
+
+	uint64 last_address = 0;
+	uint64 jumps_count_by_address_diff = 0;
+        // Int64 jump_instructions_count = 0;
 };
 
 #endif // EXECUTE_H

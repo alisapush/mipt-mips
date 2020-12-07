@@ -110,18 +110,27 @@ void PerfSim<ISA>::dump_statistics() const
     auto ipc = 1.0 * executed_instrs / double{ curr_cycle};
     auto simips = executed_instrs / time;
     auto decode_mispredict_rate = 1.0 * get_rate( decode.get_jumps_num(), decode.get_mispredictions_num());
-    auto branch_mispredict_rate = 1.0 * get_rate( branch.get_jumps_num(), branch.get_mispredictions_num());
+	auto branch_mispredict_rate = 1.0 * get_rate( branch.get_jumps_num(), branch.get_mispredictions_num());
+	auto execute_mispredict_rate = 1.0 * get_rate( execute.num_jumps, execute.num_mispredictions);
+	auto execute_diff_address_jumps_rate = 1.0 * get_rate( execute.num_jumps, execute.jumps_count_by_address_diff);
     
     std::cout << std::endl << "****************************"
-		      << std::endl << "uuuuuuu it's hacking time!"
+		      << std::endl << "__uuuuuuu it's hacking time!"
               << std::endl << "instrs:     " << executed_instrs
               << std::endl << "cycles:     " << curr_cycle
               << std::endl << "IPC:        " << ipc
               << std::endl << "sim freq:   " << frequency << " kHz"
               << std::endl << "sim IPS:    " << simips    << " kips"
               << std::endl << "instr size: " << sizeof(Instr) << " bytes"
-              << std::endl << "mispredict: detected on decode stage - " << decode_mispredict_rate << "%"
-              << std::endl << "            detected on branch stage - " << branch_mispredict_rate << "%"
+              << std::endl << "mispredict: detected on decode stage -  " << decode_mispredict_rate << "%"
+              << std::endl << "            detected on branch stage -  " << branch_mispredict_rate << "%"
+              << std::endl << "            detected on execut stage - " << execute_mispredict_rate << "%"
+         //     << std::endl << "     execute_diff_address_jumps_rate - " << execute_diff_address_jumps_rate << "%"
+
+
+			<< std::endl << "decode.get_jumps_num() = " << decode.get_jumps_num()
+			<< "; decode.get_mispredictions_num() = " << decode.get_mispredictions_num()
+			<< std::endl << "        num_jumps = " << execute.num_jumps << "; diff_jumps = " << execute.jumps_count_by_address_diff
               << std::endl << "****************************"
               << std::endl;
 }

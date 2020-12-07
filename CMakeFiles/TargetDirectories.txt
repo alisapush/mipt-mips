@@ -1,0 +1,10 @@
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/edit_cache.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/mipt-v.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/cachesim.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/rebuild_cache.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/unit-tests.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/mipt-mips.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/mipt-mips-cen64-intf.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/test.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/mipt-mips-src.dir
+/Users/alisapushnova/Repos/MIPT-MIPS/mipt-mips/CMakeFiles/elfio.dir

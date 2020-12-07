@@ -49,6 +49,23 @@ Execute<FuncInstr>::Execute( Module* parent) : Module( parent, "execute")
     rps_bypass[1].data_ports[4] = make_read_port<InstructionOutput>("BRANCH_2_EXECUTE_BYPASS", Port::LATENCY);
 }
 
+
+
+//bool is_misprediction( const Instr& instr, const BPInterface& bp_data)
+//{
+//	if ( ( instr.is_direct_jump() || instr.is_indirect_jump()) && !bp_data.is_taken)
+//		return true;
+//
+//	// 'likely' branches, which are not in BTB, are purposely considered as mispredictions
+//	if ( instr.is_likely_branch() && !bp_data.is_hit)
+//		return true;
+//
+//	return ( ( instr.is_direct_jump() || instr.is_branch())
+//	         && bp_data.target != instr.get_decoded_target()
+//	         && bp_data.is_taken);
+//}
+
+
 template <typename FuncInstr>
 void Execute<FuncInstr>::clock( Cycle cycle)
 {
@@ -106,8 +123,58 @@ void Execute<FuncInstr>::clock( Cycle cycle)
         ++src_index;
     }
 
-    /* perform execution */
+
+
+
+    auto mis_prediction = false;
+	auto bp_data = instr.get_bp_data();
+
+	if ( ( instr.is_direct_jump() || instr.is_indirect_jump()) && !bp_data.is_taken)
+		mis_prediction = true;
+
+	// 'likely' branches, which are not in BTB, are purposely considered as mispredictions
+	if ( instr.is_likely_branch() && !bp_data.is_hit)
+		mis_prediction = true;
+
+	if (!mis_prediction)
+	{
+		mis_prediction = (instr.is_direct_jump() || instr.is_branch())
+		                 && bp_data.target != instr.get_decoded_target()
+		                 && bp_data.is_taken;
+	}
+
+	if (instr.is_jump())
+	{
+		const uint64 forrr = 4;
+		auto diff = bp_data.pc - last_address;
+
+		if (diff < -forrr || diff > forrr)
+		{
+			sout << " diff = " << diff << "; ";
+			jumps_count_by_address_diff++;
+		}
+		last_address = bp_data.pc;
+	}
+
+
+    //is_misprediction( instr, instr.get_bp_data());
+
+	sout << " mis_predict = " << mis_prediction << " ";
+
+	if ( instr.is_jump())
+		num_jumps++;
+
+	/* handle misprediction */
+	if ( mis_prediction)
+		num_mispredictions++;
+
+
+
+
+	/* perform execution */
     instr.execute();
+
+
 
     /* log */
     sout << instr << std::endl;

@@ -40,12 +40,12 @@ class BP final: public BaseBP
         return directions[ way][ tags->set(PC)].is_taken( PC, target);
     }
 
-	static void log_msg (std::string message)
-	{
-		std::cout << std::endl << message << std::endl;
-		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
-		log << message << std::endl;
-	}
+//	static void log_msg (std::string message)
+//	{
+//		std::cout << std::endl << message << std::endl;
+//		std::ofstream log("logsss3.txt", std::ios_base::app | std::ios_base::out);
+//		log << message << std::endl;
+//	}
 
 public:
     BP( const std::string& lru, uint32 size_in_entries, uint32 ways, uint32 branch_ip_size_in_bits) try
@@ -87,12 +87,12 @@ public:
         // return saved target only in case it is predicted taken
         if ( is_hit && is_way_taken( way, PC, targets[ way][ tags->set(PC)]))
         {
-        	log_msg("get_target: VICTORY! " + PC);
+        	//log_msg("get_target: VICTORY! " + PC);
 	        return targets[ way][ tags->set(PC)];
         }
         else
         {
-	        log_msg("get_target: GL next time... " + PC);
+	      //  log_msg("get_target: GL next time... " + PC);
         }
 
         return PC + 4;
