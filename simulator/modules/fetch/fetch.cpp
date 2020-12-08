@@ -4,6 +4,9 @@
  */
 
 #include <infra/config/config.h>
+#include <iostream>
+#include <string>
+#include <fstream>
 
 #include "fetch.h"
 
@@ -41,6 +44,9 @@ namespace config {
 //{
 //	log(msg1 + " " + msg2);
 //}
+
+
+
 
 template <typename FuncInstr>
 Fetch<FuncInstr>::Fetch( Module* parent) : Module( parent, "fetch")
@@ -240,6 +246,33 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 //	Addr target = NO_VAL32;
 //	bool is_hit = true;
 
+//	log << "Cycle,pc,target,is_taken" < std::endl;
+
+	if (instr.is_jump())
+	{
+		auto jmp = bp_info.is_taken;
+		if (jump_streak == 0)
+			jump_streak = jmp ? 1 : -1;
+		else if (jump_streak > 0)
+			jump_streak = jmp ? jump_streak + 1 : 0;
+		else if (jump_streak < 0)
+			jump_streak = jmp ? 0 : jump_streak - 1;
+
+		jump_double_bit_predictor += jmp ? 1 : -1;
+		jump_double_bit_predictor = jump_double_bit_predictor > 3 ? 3 : jump_double_bit_predictor;
+		jump_double_bit_predictor = jump_double_bit_predictor < 0 ? 0 : jump_double_bit_predictor;
+
+		std::ofstream log("logsss4.txt", std::ios_base::app | std::ios_base::out);
+		log
+		    << cycle << ","
+//			<< instr.get_predicted_target() << ","
+//			<< target << ","
+			<< bp_info.pc << ","
+			<< bp_info.target << ","
+			<< jump_double_bit_predictor << ","
+			<< jump_streak << ","
+			<< bp_info.is_taken << std::endl;
+	}
 
     /* log */
 	//sout << "fetch   cycle " << std::dec << cycle << ": " << instr << " " << bp_info << std::endl;
@@ -249,6 +282,8 @@ void Fetch<FuncInstr>::clock( Cycle cycle)
 
 
 	sout << "----------------------------------------" << std::endl;
+
+
 }
 
 #include <mips/mips.h>

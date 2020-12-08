@@ -13,7 +13,8 @@
 #include <iosfwd>
 
 /*the structure of data sent from memory to fetch stage */
-struct BPInterface {
+struct BPInterface
+{
     Addr pc = NO_VAL32;
     bool is_taken = false;
     Addr target = NO_VAL32;

@@ -27,6 +27,10 @@ public:
     }
 
 private:
+	/* jump instructions streak */
+	int jump_streak = 0;
+	int jump_double_bit_predictor = 1;
+
     std::unique_ptr<InstrMemoryIface<FuncInstr>> memory = nullptr;
     std::unique_ptr<BaseBP> bp = nullptr;
     std::unique_ptr<CacheTagArray> tags = nullptr;
